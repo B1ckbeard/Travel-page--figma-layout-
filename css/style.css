@@ -547,12 +547,13 @@ img {
     position: relative;
     padding-bottom: 10px;
 }
+
 .section-title::after {
     display: block;
     content: '';
     width: 253px;
     height: 3px;
-    background-color:#006DFE;
+    background-color: #006DFE;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -753,7 +754,7 @@ header {
 /* section benefits end */
 /* section places start */
 
-.places{
+.places {
     margin-bottom: 131px;
 }
 
@@ -777,7 +778,8 @@ header {
     padding-right: 59px;
 }
 
-.places__view-all:hover, .places__view-all:focus {
+.places__view-all:hover,
+.places__view-all:focus {
     opacity: .65;
 }
 
@@ -787,15 +789,16 @@ header {
     grid-gap: 10px;
 }
 
-.places__card{
+.places__card {
     position: relative;
     overflow: hidden;
 }
+
 .places__card:hover .places__card-pic {
     transform: scale(1.05);
 }
 
-.places__card::after{
+.places__card::after {
     display: block;
     content: "";
     width: 100%;
@@ -820,6 +823,7 @@ header {
 .places__card_size_lg {
     grid-column: span 3;
 }
+
 .places__card_size_sm {
     grid-column: span 2;
 }
@@ -829,15 +833,17 @@ header {
     transition: .15s;
 }
 
-.places__card-pic_size_lg{
+.places__card-pic_size_lg {
     height: 354px;
     object-fit: cover;
 }
-.places__card-pic_size_sm{
+
+.places__card-pic_size_sm {
     height: 283px;
     object-fit: cover;
 }
-.places__card-link{
+
+.places__card-link {
     position: absolute;
     top: 0;
     left: 0;
@@ -845,4 +851,142 @@ header {
     height: 100%;
     z-index: 4;
 }
+
 /* section places end */
+/* section tours start */
+.tours {
+    margin-bottom: 139px;
+}
+
+.tours__tour {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 108px;
+    align-items: center;
+    margin-bottom: 77px;
+}
+
+.tour__info {
+    padding-left: 47px;
+}
+
+.tour__title {
+    color: #102746;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 85px;
+}
+
+.tour__desc {
+    color: #102746;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 58px;
+}
+
+.tour__more {
+    font-size: 16px;
+    color: #006DFE;
+    text-decoration: none;
+    background: url(../img/svg/arrow-icon.svg) no-repeat right center;
+    padding-right: 59px;
+}
+
+.tour__more:hover,
+.tour__more:focus {
+    opacity: .65;
+}
+
+/* section tours end */
+/* top places start */
+.top {
+    margin-bottom: 86px;
+}
+
+.top__title {
+    margin-bottom: 54px;
+}
+
+.top__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 57px;
+}
+.top__card {
+    display: flex;
+    flex-direction: column;
+}
+
+.top__card-pic {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.top__card-title {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0 auto 0 0;
+}
+
+.top__card-stats {
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(21, 24, 36, 0.60);
+    padding: 16px 25px;
+}
+
+.top__card-likes {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding-right: 20px;
+    background: url(../img/svg/heart-icon.svg)no-repeat right;
+    margin-right: 14px;
+}
+
+.top__card-comments {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding-right: 23px;
+    background: url(../img/svg/comment-icon.svg)no-repeat right;
+}
+
+.top__card-desc {
+    color: #102746;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 31px;
+}
+
+.top__card-more {
+    width: 118px;
+    padding: 12px 19px;
+    background: #006DFE;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    margin: auto 0 0 0;
+}
+
+.top__card-more:hover,
+.top__card-more:focus,
+.top__card-more:active {
+    background: #156CE1;
+}
+
+/* top places end */
