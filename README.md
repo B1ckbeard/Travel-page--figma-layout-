@@ -1,1 +1,1 @@
-## Travel page from figma layout
+## Travel page from [figma layout]([https://ru.hexlet.io/u/user-3880654f6a69692a](https://www.figma.com/file/ClPSP7KCU1NbvxMXA914hlFk/travel-landing-page-jacobvoyles?type=design&node-id=0-1&mode=design)https://www.figma.com/file/ClPSP7KCU1NbvxMXA914hlFk/travel-landing-page-jacobvoyles?type=design&node-id=0-1&mode=design)
